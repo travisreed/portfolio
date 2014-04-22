@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travis Reed Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Travis Reed</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="school.html">School</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="play.html">Play</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <br><br><br><br><br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="panel panel-default col-md-6">
+          <div class="panel-heading">
+            <h3 class="panel-title">BlueText</h3>
+          </div>
+          <div class="panel-body">
+          <p>
+            Will be described in the future.
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="panel panel-default col-md-6">
+          <div class="panel-heading">
+            <h3 class="panel-title">Processor</h3>
+          </div>
+          <div class="panel-body">
+          <p>
+            Will be described in the future.
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="panel panel-default col-md-6">
+          <div class="panel-heading">
+            <h3 class="panel-title">Mars Rover</h3>
+          </div>
+          <div class="panel-body">
+          <p>
+            Will be described in the future.
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="panel panel-default col-md-6">
+          <div class="panel-heading">
+            <h3 class="panel-title">Kinect Gamepack</h3>
+          </div>
+          <div class="panel-body">
+          <p>
+            My freshman year at Iowa State I worked with four other CPrE majors to build an application called
+            the Kinect GamePack. It allows up to two players to play tic-tac-toe together using body movements to select
+            squares, and also includes poker with a single human player against three computer players. Each of the
+            computer players determined a strength of hand based upon the odds of them successfully aquiring various hands,
+            then modified that number by considering chip lead, table strength, and betting history. Once this final number
+            was calculated we used a random number generator and the strengh to determine if it should call, raise or fold.
+            We all worked on the initial Kinect integration together, then my primary responsiblility for the rest of the
+            project was to design the AI.
+          </p>
+          <p>
+            This project taught me a lot about build algorithms that can take into account many variables, and it
+            was an interesting way to learn how to interpret and use an unfamiliar interface.
+          </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <image src="kinect.jpg" height="400">
+        </div>
+        <div class="row">
+        <div class="panel panel-default col-md-6">
+          <div class="panel-heading">
+            <h3 class="panel-title">Simulated Vending Machine</h3>
+          </div>
+          <div class="panel-body">
+          <p>
+            My fresman year I built a simulated vending machine using an Altera Cyclone II board.
+            This "vending machine" allowed users to "insert" quarters, dimes, or nickels using the coresponding buttons
+            on the board, then select an item to be vended using the switches. Throughout this process, the 7-segment display
+            was continually updated with the money left.
+          </p>
+          <p>
+            This project taught me the value of verilog. First, I tried to complete the circuit by using a circuit diagram
+            and a lot of wires. However, debugging this mess of wires was awful. However, when I tried it again
+            using verilog it was much more simple. I also learned the value of splitting up projects into small, easily
+            testable modules.
+          </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <image src="atmel.jpg" height="275" width="450">
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>Travis Reed, CPrE -- tjreed@iastate.edu</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

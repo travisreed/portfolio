@@ -32,10 +32,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="school.html">School</a></li>
+            <li class="active"><a href="school.html">School</a></li>
             <li><a href="work.html">Work</a></li>
-            <li><a href="play.html">Play</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="Career Objective.pdf">Career Objective Statement</a></li>
+                <li><a href="reflection.pdf">General Education Reflection</a></li>
+                <li><a href="EthicsEssay.pdf">Ethics</a></li>
+                <li><a href="Resume.pdf">Resume</a></li>
+                <li><a href="Cumulative Reflection.pdf">Cumulative Reflection</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>            
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -46,39 +55,44 @@
       <div class="row">
         <div class="panel panel-default col-md-6">
           <div class="panel-heading">
-            <h3 class="panel-title">BlueText</h3>
+            <h3 class="panel-title">Senior Design</h3>
           </div>
           <div class="panel-body">
           <p>
-            Will be described in the future.
+            I am currently building an application with 3 other CPrE majors to diagnose learning style.
+            It presents users with various quizzes and allows a professor to evalute their learning style
+            based upon how much time the student spent on various supplementary materials.
+          </p>
+          <p>
+          Role - Key Concept Holder<br>
+          Responsibility - Question Builder and Python Subject Matter Expert 
+          Broad Impact - This WebPortal is planned for deployment at Iowa State. Education is an important topic
+          around the globe, and any improvment in how we teach is a welcome improvement.
           </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="panel panel-default col-md-6">
-          <div class="panel-heading">
-            <h3 class="panel-title">Processor</h3>
-          </div>
-          <div class="panel-body">
-          <p>
-            Will be described in the future.
-          </p>
-          </div>
+      <div class="panel panel-default col-md-6">
+        <div class="panel-heading">
+          <h3 class="panel-title">BlueText</h3>
+        </div>
+        <div class="panel-body">
+        <p>
+          My Junior year I worked with 3 other CPrE majors to build an application called BlueText.
+          This application works with Mac, and Windows Operating Systems and connects to an Android Phone.
+          When you receive a text message on your phone, this text message is sent to your computer, and you
+          are able to reply if you so desire.
+        </p>
+        <p>
+        This project taught me about threading and the android operating system. It allowed me to
+        strengthen my knowledge of the development lifecycle, and prepared me for the workforce.
+        </p>
         </div>
       </div>
-      <div class="row">
-        <div class="panel panel-default col-md-6">
-          <div class="panel-heading">
-            <h3 class="panel-title">Mars Rover</h3>
-          </div>
-          <div class="panel-body">
-          <p>
-            Will be described in the future.
-          </p>
-          </div>
-        </div>
+      <div class="col-md-6">
+        <iframe width="560" height="315" src="//www.youtube.com/embed/Zs9SUmxJtVo" frameborder="0" allowfullscreen></iframe>
       </div>
+
       <div class="row">
         <div class="panel panel-default col-md-6">
           <div class="panel-heading">
@@ -86,7 +100,7 @@
           </div>
           <div class="panel-body">
           <p>
-            My freshman year at Iowa State I worked with four other CPrE majors to build an application called
+            My freshman year at Iowa State I worked with three other CPrE majors to build an application called
             the Kinect GamePack. It allows up to two players to play tic-tac-toe together using body movements to select
             squares, and also includes poker with a single human player against three computer players. Each of the
             computer players determined a strength of hand based upon the odds of them successfully aquiring various hands,
@@ -98,6 +112,7 @@
           <p>
             This project taught me a lot about build algorithms that can take into account many variables, and it
             was an interesting way to learn how to interpret and use an unfamiliar interface.
+            I learned how to work in C# and how to build my first project without specific requirements.
           </p>
           </div>
         </div>
@@ -140,6 +155,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>
